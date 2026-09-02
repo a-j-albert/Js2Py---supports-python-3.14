@@ -101,13 +101,14 @@ class ArrayPrototype:
     def push(item):  # todo check
         array = this.to_object()
         arr_len = array.get('length').to_uint32()
-        to_put = arguments.to_list()
+        arg_len = arguments.get('length').to_uint32()
+
         i = arr_len
-        for i, e in enumerate(to_put, arr_len):
-            array.put(str(i), e)
-        if to_put:
+        for idx in range(arg_len):
+            array.put(str(i), arguments.get(str(idx)))
             i += 1
-            array.put('length', this.Js(i))
+
+        array.put('length', this.Js(i))
         return i
 
     def reverse():
