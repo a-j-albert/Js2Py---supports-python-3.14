@@ -1,0 +1,290 @@
+61:0-61:0             0       RESUME                   0
+
+62:11-62:15           2       LOAD_GLOBAL              0 (this)
+62:11-62:15           4       CACHE                    0 (counter: 17)
+62:11-62:15           6       CACHE                    0 (index: 0)
+62:11-62:15           8       CACHE                    0 (module_keys_version: 0)
+62:11-62:15          10       CACHE                    0 (builtin_keys_version: 0)
+62:11-62:21          12       LOAD_ATTR                2 (Class)
+62:11-62:21          14       CACHE                    0 (counter: 17)
+62:11-62:21          16       CACHE                    0 (version: 0)
+62:11-62:21          18       CACHE                    0
+62:11-62:21          20       CACHE                    0 (keys_version: 0)
+62:11-62:21          22       CACHE                    0
+62:11-62:21          24       CACHE                    0 (descr: 0)
+62:11-62:21          26       CACHE                    0
+62:11-62:21          28       CACHE                    0
+62:11-62:21          30       CACHE                    0
+62:25-62:33          32       LOAD_CONST               0 ('Number')
+62:11-62:33          34       COMPARE_OP             119 (bool(!=))
+62:11-62:33          36       CACHE                    0 (counter: 17)
+62:11-62:33          38       POP_JUMP_IF_FALSE       23 (to L1)
+62:11-62:33          40       CACHE                    0 (counter: 21845)
+62:11-62:33          42       NOT_TAKEN
+
+63:18-63:22          44       LOAD_GLOBAL              0 (this)
+63:18-63:22          46       CACHE                    0 (counter: 17)
+63:18-63:22          48       CACHE                    0 (index: 0)
+63:18-63:22          50       CACHE                    0 (module_keys_version: 0)
+63:18-63:22          52       CACHE                    0 (builtin_keys_version: 0)
+63:18-63:32          54       LOAD_ATTR                5 (MakeError + NULL|self)
+63:18-63:32          56       CACHE                    0 (counter: 17)
+63:18-63:32          58       CACHE                    0 (version: 0)
+63:18-63:32          60       CACHE                    0
+63:18-63:32          62       CACHE                    0 (keys_version: 0)
+63:18-63:32          64       CACHE                    0
+63:18-63:32          66       CACHE                    0 (descr: 0)
+63:18-63:32          68       CACHE                    0
+63:18-63:32          70       CACHE                    0
+63:18-63:32          72       CACHE                    0
+63:33-63:44          74       LOAD_CONST               1 ('TypeError')
+
+64:33-64:74          76       LOAD_CONST               2 ('Number.prototype.valueOf is not generic')
+
+63:18-64:75          78       CALL                     2
+63:18-64:75          80       CACHE                    0 (counter: 17)
+63:18-64:75          82       CACHE                    0 (func_version: 0)
+63:18-64:75          84       CACHE                    0
+63:12-64:75          86       RAISE_VARARGS            1
+
+65:11-65:16    L1:   88       LOAD_FAST_BORROW         0 (radix)
+65:11-65:29          90       LOAD_ATTR                7 (is_undefined + NULL|self)
+65:11-65:29          92       CACHE                    0 (counter: 17)
+65:11-65:29          94       CACHE                    0 (version: 0)
+65:11-65:29          96       CACHE                    0
+65:11-65:29          98       CACHE                    0 (keys_version: 0)
+65:11-65:29         100       CACHE                    0
+65:11-65:29         102       CACHE                    0 (descr: 0)
+65:11-65:29         104       CACHE                    0
+65:11-65:29         106       CACHE                    0
+65:11-65:29         108       CACHE                    0
+65:11-65:31         110       CALL                     0
+65:11-65:31         112       CACHE                    0 (counter: 17)
+65:11-65:31         114       CACHE                    0 (func_version: 0)
+65:11-65:31         116       CACHE                    0
+65:11-65:31         118       TO_BOOL
+65:11-65:31         120       CACHE                    0 (counter: 17)
+65:11-65:31         122       CACHE                    0 (version: 0)
+65:11-65:31         124       CACHE                    0
+65:11-65:31         126       POP_JUMP_IF_FALSE       16 (to L2)
+65:11-65:31         128       CACHE                    0 (counter: 21845)
+65:11-65:31         130       NOT_TAKEN
+
+66:19-66:29         132       LOAD_GLOBAL              9 (to_str_rep + NULL)
+66:19-66:29         134       CACHE                    0 (counter: 17)
+66:19-66:29         136       CACHE                    0 (index: 0)
+66:19-66:29         138       CACHE                    0 (module_keys_version: 0)
+66:19-66:29         140       CACHE                    0 (builtin_keys_version: 0)
+66:30-66:34         142       LOAD_GLOBAL              0 (this)
+66:30-66:34         144       CACHE                    0 (counter: 17)
+66:30-66:34         146       CACHE                    0 (index: 0)
+66:30-66:34         148       CACHE                    0 (module_keys_version: 0)
+66:30-66:34         150       CACHE                    0 (builtin_keys_version: 0)
+66:19-66:35         152       CALL                     1
+66:19-66:35         154       CACHE                    0 (counter: 17)
+66:19-66:35         156       CACHE                    0 (func_version: 0)
+66:19-66:35         158       CACHE                    0
+66:12-66:35         160       RETURN_VALUE
+
+67:12-67:17    L2:  162       LOAD_FAST_BORROW         0 (radix)
+67:12-67:24         164       LOAD_ATTR               11 (to_int + NULL|self)
+67:12-67:24         166       CACHE                    0 (counter: 17)
+67:12-67:24         168       CACHE                    0 (version: 0)
+67:12-67:24         170       CACHE                    0
+67:12-67:24         172       CACHE                    0 (keys_version: 0)
+67:12-67:24         174       CACHE                    0
+67:12-67:24         176       CACHE                    0 (descr: 0)
+67:12-67:24         178       CACHE                    0
+67:12-67:24         180       CACHE                    0
+67:12-67:24         182       CACHE                    0
+67:12-67:26         184       CALL                     0
+67:12-67:26         186       CACHE                    0 (counter: 17)
+67:12-67:26         188       CACHE                    0 (func_version: 0)
+67:12-67:26         190       CACHE                    0
+67:8-67:9           192       STORE_FAST               1 (r)
+
+68:11-68:12         194       LOAD_FAST_BORROW         1 (r)
+68:16-68:18         196       LOAD_SMALL_INT          10
+68:11-68:18         198       COMPARE_OP              88 (bool(==))
+68:11-68:18         200       CACHE                    0 (counter: 17)
+68:11-68:18         202       POP_JUMP_IF_FALSE       16 (to L3)
+68:11-68:18         204       CACHE                    0 (counter: 21845)
+68:11-68:18         206       NOT_TAKEN
+
+69:19-69:29         208       LOAD_GLOBAL              9 (to_str_rep + NULL)
+69:19-69:29         210       CACHE                    0 (counter: 17)
+69:19-69:29         212       CACHE                    0 (index: 0)
+69:19-69:29         214       CACHE                    0 (module_keys_version: 0)
+69:19-69:29         216       CACHE                    0 (builtin_keys_version: 0)
+69:30-69:34         218       LOAD_GLOBAL              0 (this)
+69:30-69:34         220       CACHE                    0 (counter: 17)
+69:30-69:34         222       CACHE                    0 (index: 0)
+69:30-69:34         224       CACHE                    0 (module_keys_version: 0)
+69:30-69:34         226       CACHE                    0 (builtin_keys_version: 0)
+69:19-69:35         228       CALL                     1
+69:19-69:35         230       CACHE                    0 (counter: 17)
+69:19-69:35         232       CACHE                    0 (func_version: 0)
+69:19-69:35         234       CACHE                    0
+69:12-69:35         236       RETURN_VALUE
+
+70:11-70:12    L3:  238       LOAD_FAST_BORROW         1 (r)
+70:20-70:26         240       LOAD_GLOBAL             13 (xrange + NULL)
+70:20-70:26         242       CACHE                    0 (counter: 17)
+70:20-70:26         244       CACHE                    0 (index: 0)
+70:20-70:26         246       CACHE                    0 (module_keys_version: 0)
+70:20-70:26         248       CACHE                    0 (builtin_keys_version: 0)
+70:27-70:28         250       LOAD_SMALL_INT           2
+70:30-70:32         252       LOAD_SMALL_INT          37
+70:20-70:33         254       CALL                     2
+70:20-70:33         256       CACHE                    0 (counter: 17)
+70:20-70:33         258       CACHE                    0 (func_version: 0)
+70:20-70:33         260       CACHE                    0
+70:11-70:33         262       CONTAINS_OP              1 (not in)
+70:11-70:33         264       CACHE                    0 (counter: 17)
+70:11-70:33         266       POP_JUMP_IF_FALSE       23 (to L4)
+70:11-70:33         268       CACHE                    0 (counter: 21845)
+70:11-70:33         270       NOT_TAKEN
+
+71:18-71:22         272       LOAD_GLOBAL              0 (this)
+71:18-71:22         274       CACHE                    0 (counter: 17)
+71:18-71:22         276       CACHE                    0 (index: 0)
+71:18-71:22         278       CACHE                    0 (module_keys_version: 0)
+71:18-71:22         280       CACHE                    0 (builtin_keys_version: 0)
+71:18-71:32         282       LOAD_ATTR                5 (MakeError + NULL|self)
+71:18-71:32         284       CACHE                    0 (counter: 17)
+71:18-71:32         286       CACHE                    0 (version: 0)
+71:18-71:32         288       CACHE                    0
+71:18-71:32         290       CACHE                    0 (keys_version: 0)
+71:18-71:32         292       CACHE                    0
+71:18-71:32         294       CACHE                    0 (descr: 0)
+71:18-71:32         296       CACHE                    0
+71:18-71:32         298       CACHE                    0
+71:18-71:32         300       CACHE                    0
+
+72:16-72:28         302       LOAD_CONST               3 ('RangeError')
+
+73:16-73:85         304       LOAD_CONST               4 ('Number.prototype.toString() radix argument must be between 2 and 36')
+
+71:18-74:13         306       CALL                     2
+71:18-74:13         308       CACHE                    0 (counter: 17)
+71:18-74:13         310       CACHE                    0 (func_version: 0)
+71:18-74:13         312       CACHE                    0
+71:12-74:13         314       RAISE_VARARGS            1
+
+75:14-75:18    L4:  316       LOAD_GLOBAL              0 (this)
+75:14-75:18         318       CACHE                    0 (counter: 17)
+75:14-75:18         320       CACHE                    0 (index: 0)
+75:14-75:18         322       CACHE                    0 (module_keys_version: 0)
+75:14-75:18         324       CACHE                    0 (builtin_keys_version: 0)
+75:14-75:25         326       LOAD_ATTR               11 (to_int + NULL|self)
+75:14-75:25         328       CACHE                    0 (counter: 17)
+75:14-75:25         330       CACHE                    0 (version: 0)
+75:14-75:25         332       CACHE                    0
+75:14-75:25         334       CACHE                    0 (keys_version: 0)
+75:14-75:25         336       CACHE                    0
+75:14-75:25         338       CACHE                    0 (descr: 0)
+75:14-75:25         340       CACHE                    0
+75:14-75:25         342       CACHE                    0
+75:14-75:25         344       CACHE                    0
+75:14-75:27         346       CALL                     0
+75:14-75:27         348       CACHE                    0 (counter: 17)
+75:14-75:27         350       CACHE                    0 (func_version: 0)
+75:14-75:27         352       CACHE                    0
+75:8-75:11          354       STORE_FAST               2 (num)
+
+76:11-76:14         356       LOAD_FAST_BORROW         2 (num)
+76:17-76:18         358       LOAD_SMALL_INT           0
+76:11-76:18         360       COMPARE_OP              18 (bool(<))
+76:11-76:18         362       CACHE                    0 (counter: 17)
+76:11-76:18         364       POP_JUMP_IF_FALSE        7 (to L5)
+76:11-76:18         366       CACHE                    0 (counter: 21845)
+76:11-76:18         368       NOT_TAKEN
+
+77:19-77:22         370       LOAD_FAST_BORROW         2 (num)
+77:18-77:22         372       UNARY_NEGATIVE
+77:12-77:15         374       STORE_FAST               2 (num)
+
+78:19-78:22         376       LOAD_CONST               5 ('-')
+78:12-78:16         378       STORE_FAST               3 (sign)
+78:12-78:16         380       JUMP_FORWARD             2 (to L6)
+
+80:19-80:21    L5:  382       LOAD_CONST               6 ('')
+80:12-80:16         384       STORE_FAST               3 (sign)
+
+81:14-81:16    L6:  386       LOAD_CONST               6 ('')
+81:8-81:11          388       STORE_FAST               4 (res)
+
+82:14-82:17    L7:  390       LOAD_FAST_BORROW         2 (num)
+82:14-82:17         392       TO_BOOL
+82:14-82:17         394       CACHE                    0 (counter: 17)
+82:14-82:17         396       CACHE                    0 (version: 0)
+82:14-82:17         398       CACHE                    0
+82:14-82:17         400       POP_JUMP_IF_FALSE       38 (to L8)
+82:14-82:17         402       CACHE                    0 (counter: 21845)
+82:14-82:17         404       NOT_TAKEN
+
+83:16-83:29         406       LOAD_GLOBAL             14 (RADIX_SYMBOLS)
+83:16-83:29         408       CACHE                    0 (counter: 17)
+83:16-83:29         410       CACHE                    0 (index: 0)
+83:16-83:29         412       CACHE                    0 (module_keys_version: 0)
+83:16-83:29         414       CACHE                    0 (builtin_keys_version: 0)
+83:30-83:33         416       LOAD_FAST_BORROW_LOAD_FAST_BORROW 33 (num, r)
+83:30-83:37         418       BINARY_OP                6 (%)
+83:30-83:37         420       CACHE                    0 (counter: 17)
+83:30-83:37         422       CACHE                    0 (descr: 0)
+83:30-83:37         424       CACHE                    0
+83:30-83:37         426       CACHE                    0
+83:30-83:37         428       CACHE                    0
+83:16-83:38         430       BINARY_OP               26 ([])
+83:16-83:38         432       CACHE                    0 (counter: 17)
+83:16-83:38         434       CACHE                    0 (descr: 0)
+83:16-83:38         436       CACHE                    0
+83:16-83:38         438       CACHE                    0
+83:16-83:38         440       CACHE                    0
+83:12-83:13         442       STORE_FAST               5 (s)
+
+84:18-84:21         444       LOAD_FAST_BORROW_LOAD_FAST_BORROW 33 (num, r)
+84:18-84:26         446       BINARY_OP                2 (//)
+84:18-84:26         448       CACHE                    0 (counter: 17)
+84:18-84:26         450       CACHE                    0 (descr: 0)
+84:18-84:26         452       CACHE                    0
+84:18-84:26         454       CACHE                    0
+84:18-84:26         456       CACHE                    0
+84:12-84:15         458       STORE_FAST               2 (num)
+
+85:18-85:19         460       LOAD_FAST_BORROW_LOAD_FAST_BORROW 84 (s, res)
+85:18-85:25         462       BINARY_OP                0 (+)
+85:18-85:25         464       CACHE                    0 (counter: 17)
+85:18-85:25         466       CACHE                    0 (descr: 0)
+85:18-85:25         468       CACHE                    0
+85:18-85:25         470       CACHE                    0
+85:18-85:25         472       CACHE                    0
+85:12-85:15         474       STORE_FAST               4 (res)
+85:12-85:15         476       JUMP_BACKWARD           45 (to L7)
+85:12-85:15         478       CACHE                    0 (counter: 65532)
+
+86:15-86:19    L8:  480       LOAD_FAST_LOAD_FAST     52 (sign, res)
+86:30-86:33         482       TO_BOOL
+86:30-86:33         484       CACHE                    0 (counter: 17)
+86:30-86:33         486       CACHE                    0 (version: 0)
+86:30-86:33         488       CACHE                    0
+86:30-86:33         490       POP_JUMP_IF_FALSE        9 (to L9)
+86:30-86:33         492       CACHE                    0 (counter: 21845)
+86:30-86:33         494       NOT_TAKEN
+86:23-86:26         496       LOAD_FAST_BORROW         4 (res)
+86:15-86:43         498       BINARY_OP                0 (+)
+86:15-86:43         500       CACHE                    0 (counter: 17)
+86:15-86:43         502       CACHE                    0 (descr: 0)
+86:15-86:43         504       CACHE                    0
+86:15-86:43         506       CACHE                    0
+86:15-86:43         508       CACHE                    0
+86:8-86:43          510       RETURN_VALUE
+86:39-86:42    L9:  512       LOAD_CONST               7 ('0')
+86:15-86:43         514       BINARY_OP                0 (+)
+86:15-86:43         516       CACHE                    0 (counter: 17)
+86:15-86:43         518       CACHE                    0 (descr: 0)
+86:15-86:43         520       CACHE                    0
+86:15-86:43         522       CACHE                    0
+86:15-86:43         524       CACHE                    0
+86:8-86:43          526       RETURN_VALUE
+

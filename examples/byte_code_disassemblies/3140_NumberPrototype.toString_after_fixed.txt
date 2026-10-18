@@ -1,0 +1,290 @@
+ 61          0       RESUME                   0
+
+ 62          2       LOAD_FAST                1 (this)
+             4       NOP
+             6       NOP
+             8       NOP
+            10       NOP
+            12       LOAD_ATTR                0 (Class)
+            14       CACHE                    0 (counter: 17)
+            16       CACHE                    0 (version: 0)
+            18       CACHE                    0
+            20       CACHE                    0 (keys_version: 0)
+            22       CACHE                    0
+            24       CACHE                    0 (descr: 0)
+            26       CACHE                    0
+            28       CACHE                    0
+            30       CACHE                    0
+            32       LOAD_CONST               0 ('Number')
+            34       COMPARE_OP             119 (bool(!=))
+            36       CACHE                    0 (counter: 17)
+            38       POP_JUMP_IF_FALSE       23 (to L1)
+            40       CACHE                    0 (counter: 21845)
+            42       NOT_TAKEN
+
+ 63         44       LOAD_FAST                1 (this)
+            46       NOP
+            48       NOP
+            50       NOP
+            52       NOP
+            54       LOAD_ATTR                3 (MakeError + NULL|self)
+            56       CACHE                    0 (counter: 17)
+            58       CACHE                    0 (version: 0)
+            60       CACHE                    0
+            62       CACHE                    0 (keys_version: 0)
+            64       CACHE                    0
+            66       CACHE                    0 (descr: 0)
+            68       CACHE                    0
+            70       CACHE                    0
+            72       CACHE                    0
+            74       LOAD_CONST               1 ('TypeError')
+
+ 64         76       LOAD_CONST               2 ('Number.prototype.valueOf is not generic')
+
+ 63         78       CALL                     2
+            80       CACHE                    0 (counter: 17)
+            82       CACHE                    0 (func_version: 0)
+            84       CACHE                    0
+            86       RAISE_VARARGS            1
+
+ 65   L1:   88       LOAD_FAST_BORROW         0 (radix)
+            90       LOAD_ATTR                5 (is_undefined + NULL|self)
+            92       CACHE                    0 (counter: 17)
+            94       CACHE                    0 (version: 0)
+            96       CACHE                    0
+            98       CACHE                    0 (keys_version: 0)
+           100       CACHE                    0
+           102       CACHE                    0 (descr: 0)
+           104       CACHE                    0
+           106       CACHE                    0
+           108       CACHE                    0
+           110       CALL                     0
+           112       CACHE                    0 (counter: 17)
+           114       CACHE                    0 (func_version: 0)
+           116       CACHE                    0
+           118       TO_BOOL
+           120       CACHE                    0 (counter: 17)
+           122       CACHE                    0 (version: 0)
+           124       CACHE                    0
+           126       POP_JUMP_IF_FALSE       16 (to L2)
+           128       CACHE                    0 (counter: 21845)
+           130       NOT_TAKEN
+
+ 66        132       LOAD_GLOBAL              7 (to_str_rep + NULL)
+           134       CACHE                    0 (counter: 17)
+           136       CACHE                    0 (index: 0)
+           138       CACHE                    0 (module_keys_version: 0)
+           140       CACHE                    0 (builtin_keys_version: 0)
+           142       LOAD_FAST                1 (this)
+           144       NOP
+           146       NOP
+           148       NOP
+           150       NOP
+           152       CALL                     1
+           154       CACHE                    0 (counter: 17)
+           156       CACHE                    0 (func_version: 0)
+           158       CACHE                    0
+           160       RETURN_VALUE
+
+ 67   L2:  162       LOAD_FAST_BORROW         0 (radix)
+           164       LOAD_ATTR                9 (to_int + NULL|self)
+           166       CACHE                    0 (counter: 17)
+           168       CACHE                    0 (version: 0)
+           170       CACHE                    0
+           172       CACHE                    0 (keys_version: 0)
+           174       CACHE                    0
+           176       CACHE                    0 (descr: 0)
+           178       CACHE                    0
+           180       CACHE                    0
+           182       CACHE                    0
+           184       CALL                     0
+           186       CACHE                    0 (counter: 17)
+           188       CACHE                    0 (func_version: 0)
+           190       CACHE                    0
+           192       STORE_FAST               5 (r)
+
+ 68        194       LOAD_FAST_BORROW         5 (r)
+           196       LOAD_SMALL_INT          10
+           198       COMPARE_OP              88 (bool(==))
+           200       CACHE                    0 (counter: 17)
+           202       POP_JUMP_IF_FALSE       16 (to L3)
+           204       CACHE                    0 (counter: 21845)
+           206       NOT_TAKEN
+
+ 69        208       LOAD_GLOBAL              7 (to_str_rep + NULL)
+           210       CACHE                    0 (counter: 17)
+           212       CACHE                    0 (index: 0)
+           214       CACHE                    0 (module_keys_version: 0)
+           216       CACHE                    0 (builtin_keys_version: 0)
+           218       LOAD_FAST                1 (this)
+           220       NOP
+           222       NOP
+           224       NOP
+           226       NOP
+           228       CALL                     1
+           230       CACHE                    0 (counter: 17)
+           232       CACHE                    0 (func_version: 0)
+           234       CACHE                    0
+           236       RETURN_VALUE
+
+ 70   L3:  238       LOAD_FAST_BORROW         5 (r)
+           240       LOAD_GLOBAL             11 (xrange + NULL)
+           242       CACHE                    0 (counter: 17)
+           244       CACHE                    0 (index: 0)
+           246       CACHE                    0 (module_keys_version: 0)
+           248       CACHE                    0 (builtin_keys_version: 0)
+           250       LOAD_SMALL_INT           2
+           252       LOAD_SMALL_INT          37
+           254       CALL                     2
+           256       CACHE                    0 (counter: 17)
+           258       CACHE                    0 (func_version: 0)
+           260       CACHE                    0
+           262       CONTAINS_OP              1 (not in)
+           264       CACHE                    0 (counter: 17)
+           266       POP_JUMP_IF_FALSE       23 (to L4)
+           268       CACHE                    0 (counter: 21845)
+           270       NOT_TAKEN
+
+ 71        272       LOAD_FAST                1 (this)
+           274       NOP
+           276       NOP
+           278       NOP
+           280       NOP
+           282       LOAD_ATTR                3 (MakeError + NULL|self)
+           284       CACHE                    0 (counter: 17)
+           286       CACHE                    0 (version: 0)
+           288       CACHE                    0
+           290       CACHE                    0 (keys_version: 0)
+           292       CACHE                    0
+           294       CACHE                    0 (descr: 0)
+           296       CACHE                    0
+           298       CACHE                    0
+           300       CACHE                    0
+
+ 72        302       LOAD_CONST               3 ('RangeError')
+
+ 73        304       LOAD_CONST               4 ('Number.prototype.toString() radix argument must be between 2 and 36')
+
+ 71        306       CALL                     2
+           308       CACHE                    0 (counter: 17)
+           310       CACHE                    0 (func_version: 0)
+           312       CACHE                    0
+           314       RAISE_VARARGS            1
+
+ 75   L4:  316       LOAD_FAST                1 (this)
+           318       NOP
+           320       NOP
+           322       NOP
+           324       NOP
+           326       LOAD_ATTR                9 (to_int + NULL|self)
+           328       CACHE                    0 (counter: 17)
+           330       CACHE                    0 (version: 0)
+           332       CACHE                    0
+           334       CACHE                    0 (keys_version: 0)
+           336       CACHE                    0
+           338       CACHE                    0 (descr: 0)
+           340       CACHE                    0
+           342       CACHE                    0
+           344       CACHE                    0
+           346       CALL                     0
+           348       CACHE                    0 (counter: 17)
+           350       CACHE                    0 (func_version: 0)
+           352       CACHE                    0
+           354       STORE_FAST               6 (num)
+
+ 76        356       LOAD_FAST_BORROW         6 (num)
+           358       LOAD_SMALL_INT           0
+           360       COMPARE_OP              18 (bool(<))
+           362       CACHE                    0 (counter: 17)
+           364       POP_JUMP_IF_FALSE        7 (to L5)
+           366       CACHE                    0 (counter: 21845)
+           368       NOT_TAKEN
+
+ 77        370       LOAD_FAST_BORROW         6 (num)
+           372       UNARY_NEGATIVE
+           374       STORE_FAST               6 (num)
+
+ 78        376       LOAD_CONST               5 ('-')
+           378       STORE_FAST               3 (sign)
+           380       JUMP_FORWARD             2 (to L6)
+
+ 80   L5:  382       LOAD_CONST               6 ('')
+           384       STORE_FAST               3 (sign)
+
+ 81   L6:  386       LOAD_CONST               6 ('')
+           388       STORE_FAST               4 (res)
+
+ 82   L7:  390       LOAD_FAST_BORROW         6 (num)
+           392       TO_BOOL
+           394       CACHE                    0 (counter: 17)
+           396       CACHE                    0 (version: 0)
+           398       CACHE                    0
+           400       POP_JUMP_IF_FALSE       38 (to L8)
+           402       CACHE                    0 (counter: 21845)
+           404       NOT_TAKEN
+
+ 83        406       LOAD_GLOBAL             12 (RADIX_SYMBOLS)
+           408       CACHE                    0 (counter: 17)
+           410       CACHE                    0 (index: 0)
+           412       CACHE                    0 (module_keys_version: 0)
+           414       CACHE                    0 (builtin_keys_version: 0)
+           416       LOAD_FAST_BORROW_LOAD_FAST_BORROW 101 (num, r)
+           418       BINARY_OP                6 (%)
+           420       CACHE                    0 (counter: 17)
+           422       CACHE                    0 (descr: 0)
+           424       CACHE                    0
+           426       CACHE                    0
+           428       CACHE                    0
+           430       BINARY_OP               26 ([])
+           432       CACHE                    0 (counter: 17)
+           434       CACHE                    0 (descr: 0)
+           436       CACHE                    0
+           438       CACHE                    0
+           440       CACHE                    0
+           442       STORE_FAST               7 (s)
+
+ 84        444       LOAD_FAST_BORROW_LOAD_FAST_BORROW 101 (num, r)
+           446       BINARY_OP                2 (//)
+           448       CACHE                    0 (counter: 17)
+           450       CACHE                    0 (descr: 0)
+           452       CACHE                    0
+           454       CACHE                    0
+           456       CACHE                    0
+           458       STORE_FAST               6 (num)
+
+ 85        460       LOAD_FAST_BORROW_LOAD_FAST_BORROW 116 (s, res)
+           462       BINARY_OP                0 (+)
+           464       CACHE                    0 (counter: 17)
+           466       CACHE                    0 (descr: 0)
+           468       CACHE                    0
+           470       CACHE                    0
+           472       CACHE                    0
+           474       STORE_FAST               4 (res)
+           476       JUMP_BACKWARD           45 (to L7)
+           478       CACHE                    0 (counter: 65532)
+
+ 86   L8:  480       LOAD_FAST_LOAD_FAST     52 (sign, res)
+           482       TO_BOOL
+           484       CACHE                    0 (counter: 17)
+           486       CACHE                    0 (version: 0)
+           488       CACHE                    0
+           490       POP_JUMP_IF_FALSE        9 (to L9)
+           492       CACHE                    0 (counter: 21845)
+           494       NOT_TAKEN
+           496       LOAD_FAST_BORROW         4 (res)
+           498       BINARY_OP                0 (+)
+           500       CACHE                    0 (counter: 17)
+           502       CACHE                    0 (descr: 0)
+           504       CACHE                    0
+           506       CACHE                    0
+           508       CACHE                    0
+           510       RETURN_VALUE
+      L9:  512       LOAD_CONST               7 ('0')
+           514       BINARY_OP                0 (+)
+           516       CACHE                    0 (counter: 17)
+           518       CACHE                    0 (descr: 0)
+           520       CACHE                    0
+           522       CACHE                    0
+           524       CACHE                    0
+           526       RETURN_VALUE
+
