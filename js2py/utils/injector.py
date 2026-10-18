@@ -20,7 +20,7 @@ LOAD_FAST_LOAD_FAST = opcode.opmap.get('LOAD_FAST_LOAD_FAST')
 STORE_FAST_LOAD_FAST = opcode.opmap.get('STORE_FAST_LOAD_FAST')
 STORE_FAST_STORE_FAST = opcode.opmap.get('STORE_FAST_STORE_FAST')
 EXTENDED_ARG = opcode.opmap.get('EXTENDED_ARG')
-
+LOAD_FAST_BORROW_LOAD_FAST_BORROW = opcode.opmap.get('LOAD_FAST_BORROW_LOAD_FAST_BORROW')
 
 def fix_js_args(func):
     '''Use this function when unsure whether func takes this and arguments as its last 2 args.
@@ -157,7 +157,7 @@ def append_arguments(code_obj, new_locals):
                 arg = tgt
             else:
                 raise(ValueError("a name was lost in translation last instruction %s" % str(inst)))
-        elif inst.opcode in (LOAD_FAST_LOAD_FAST, STORE_FAST_LOAD_FAST, STORE_FAST_STORE_FAST):
+        elif inst.opcode in (LOAD_FAST_LOAD_FAST, STORE_FAST_LOAD_FAST, STORE_FAST_STORE_FAST, LOAD_FAST_BORROW_LOAD_FAST_BORROW):
             old_first_arg = inst.arg >> 4 & 0xF
             old_second_arg = inst.arg & 0xF
             new_first_arg = varname_translations[old_first_arg]
